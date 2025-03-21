@@ -2,7 +2,7 @@ worker_processes auto;
 events {}
 stream {
     upstream backend {
-        server 167.99.242.242:443;
+        server bsacko.duckdns.org:80;
     }
     server {
         listen 8080;
